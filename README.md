@@ -8,26 +8,44 @@ menu list
 1、调用方式通过自定义protocol，仿造了tableView的dataSource，调用起来显得比较优雅。
 
 protocol YNTMenuViewDataSource {
+
     func tagHeight(for menuList: UIView) -> CGFloat
+
     func tagWidth(for menuList: UIView) -> CGFloat
+
     func menuList(_ menuList: UIView, viewForColunmAt colunm: Int) -> UIView
+
     func titleArray(for menuList: UIView) -> [String]
+
 }
 
 2、因为上下两个scrollView需要联动，还有选中的某个标签状态（字体颜色，大小等等）需要变化，所以还要做一些处理。以前用的别人写的控件，方法感觉不大好，是通过遍历上面那个scrollView的所有子控件，通过匹配每一个标签button的tag值，匹配的button设置选中状态，不匹配的button设置默认状态。
+
 for (id obj in _navScrollV.subviews) {
+
     if ([obj isKindOfClass:[UIButton class]]) {
+
         UIButton *currentButton = (UIButton*)obj;
+
         if (currentButton.tag == btn.tag ) {
+
             [currentButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+
         }else {
+
             [currentButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+
         }
+
     }
 }
    
 但是其实任何情况下都有且只有一个标签button被选中，所以可以通过一个全局变量lastSelectedTitleBtn保存上一次选中的标签button，那么改变状态的时候就无需通过遍历了。
+
 lastSelectedTitleBtn?.setTitleColor(UIColor.black, for: .normal)
+
 lastSelectedTitleBtn?.titleLabel?.font = UIFont.systemFont(ofSize: 13.0)
+
 newTitleBtn.setTitleColor(UIColor.red, for: .normal)
+
 newTitleBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
