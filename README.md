@@ -7,23 +7,23 @@ menu list
 
 1、创建view
 
-        let menuView = YNTMenuView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
-        menuView.dataSource = self
-        view.addSubview(menuView)
+    let menuView = YNTMenuView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
+    menuView.dataSource = self
+    view.addSubview(menuView)
         
 2、实现数据源
 
-        func tagHeight(for menuList: UIView) -> CGFloat {
-            return 40
-        }
+    func tagHeight(for menuList: UIView) -> CGFloat {
+        return 40
+    }
     
-        func tagWidth(for menuList: UIView) -> CGFloat {
-            return 80
-        }
+    func tagWidth(for menuList: UIView) -> CGFloat {
+        return 80
+    }
     
-        func menuList(_ menuList: UIView, viewForColunmAt colunm: Int) -> UIView {
-            let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
-            view.backgroundColor = UIColor(red: CGFloat(arc4random() % 255) / 255.0, green: CGFloat(arc4random() % 255) / 255.0, blue: C        GFloat(arc4random() % 255) / 255.0, alpha: 1.0)
+    func menuList(_ menuList: UIView, viewForColunmAt colunm: Int) -> UIView {
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
+        view.backgroundColor = UIColor(red: CGFloat(arc4random() % 255) / 255.0, green: CGFloat(arc4random() % 255) / 255.0, blue: CGFloat(arc4random() % 255) / 255.0, alpha: 1.0)
         return view
     }
     
