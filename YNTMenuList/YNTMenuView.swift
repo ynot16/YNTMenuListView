@@ -129,7 +129,6 @@ class YNTMenuView: UIView {
                 }
             }
         }
-        
     }
 }
 
