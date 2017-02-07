@@ -3,14 +3,16 @@ menu list
 
 不知道这种控件具体应该怎么称呼，听得比较多的就是仿网易首页，但是在Github上寻思着不知道怎么搜，而我自己总觉得是叫menu相关的，但是搜出来多数都是侧滑menu。干脆趁着刚上班，没什么状态，自己撸一个，找找状态，练练手感。希望知道怎么叫这种控件的麻烦告知一下哈～～
 
-使用方法
+使用方法：
 
 1、创建view
+
 
     let menuView = YNTMenuView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
     menuView.dataSource = self
     view.addSubview(menuView)
-        
+
+
 2、实现数据源
 
     func tagHeight(for menuList: UIView) -> CGFloat {
