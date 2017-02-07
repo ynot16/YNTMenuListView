@@ -14,7 +14,7 @@
 		7C25F9DC1E4817E200D32A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C25F9DA1E4817E200D32A34 /* LaunchScreen.storyboard */; };
 		7C25F9E71E4817E300D32A34 /* YNTMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25F9E61E4817E300D32A34 /* YNTMenuListTests.swift */; };
 		7C25F9F41E48183D00D32A34 /* YNTMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25F9F31E48183D00D32A34 /* YNTMenuView.swift */; };
-		7C25F9F81E49B8BC00D32A34 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C25F9F71E49B8BC00D32A34 /* demo.png */; };
+		7C25F9FC1E49BB8C00D32A34 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C25F9FB1E49BB8C00D32A34 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		7C25F9E61E4817E300D32A34 /* YNTMenuListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNTMenuListTests.swift; sourceTree = "<group>"; };
 		7C25F9E81E4817E300D32A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C25F9F31E48183D00D32A34 /* YNTMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNTMenuView.swift; sourceTree = "<group>"; };
-		7C25F9F71E49B8BC00D32A34 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
+		7C25F9FB1E49BB8C00D32A34 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				7C25F9D81E4817E200D32A34 /* Assets.xcassets */,
 				7C25F9DA1E4817E200D32A34 /* LaunchScreen.storyboard */,
 				7C25F9DD1E4817E300D32A34 /* Info.plist */,
-				7C25F9F71E49B8BC00D32A34 /* demo.png */,
+				7C25F9FB1E49BB8C00D32A34 /* demo.png */,
 			);
 			path = YNTMenuList;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C25F9F81E49B8BC00D32A34 /* demo.png in Resources */,
+				7C25F9FC1E49BB8C00D32A34 /* demo.png in Resources */,
 				7C25F9DC1E4817E200D32A34 /* LaunchScreen.storyboard in Resources */,
 				7C25F9D91E4817E200D32A34 /* Assets.xcassets in Resources */,
 				7C25F9D71E4817E200D32A34 /* Main.storyboard in Resources */,
