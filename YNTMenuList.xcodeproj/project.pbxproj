@@ -13,6 +13,7 @@
 		7C25F9D91E4817E200D32A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25F9D81E4817E200D32A34 /* Assets.xcassets */; };
 		7C25F9DC1E4817E200D32A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C25F9DA1E4817E200D32A34 /* LaunchScreen.storyboard */; };
 		7C25F9E71E4817E300D32A34 /* YNTMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25F9E61E4817E300D32A34 /* YNTMenuListTests.swift */; };
+		7C25F9F41E48183D00D32A34 /* YNTMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25F9F31E48183D00D32A34 /* YNTMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7C25F9E21E4817E300D32A34 /* YNTMenuListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNTMenuListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C25F9E61E4817E300D32A34 /* YNTMenuListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNTMenuListTests.swift; sourceTree = "<group>"; };
 		7C25F9E81E4817E300D32A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C25F9F31E48183D00D32A34 /* YNTMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNTMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7C25F9D11E4817E200D32A34 /* AppDelegate.swift */,
 				7C25F9D31E4817E200D32A34 /* ViewController.swift */,
+				7C25F9F31E48183D00D32A34 /* YNTMenuView.swift */,
 				7C25F9D51E4817E200D32A34 /* Main.storyboard */,
 				7C25F9D81E4817E200D32A34 /* Assets.xcassets */,
 				7C25F9DA1E4817E200D32A34 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				7C25F9D41E4817E200D32A34 /* ViewController.swift in Sources */,
 				7C25F9D21E4817E200D32A34 /* AppDelegate.swift in Sources */,
+				7C25F9F41E48183D00D32A34 /* YNTMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +410,7 @@
 				7C25F9ED1E4817E300D32A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C25F9EE1E4817E300D32A34 /* Build configuration list for PBXNativeTarget "YNTMenuListTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				7C25F9F01E4817E300D32A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
