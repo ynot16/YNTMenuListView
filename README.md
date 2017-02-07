@@ -7,12 +7,10 @@ menu list
 
 1、创建view
 
-
-    let menuView = YNTMenuView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
+    let menuView = YNTMenuView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
     menuView.dataSource = self
     view.addSubview(menuView)
-
-
+    
 2、实现数据源
 
     func tagHeight(for menuList: UIView) -> CGFloat {
